@@ -381,7 +381,7 @@ def send_message(message):
     #line = 0
     #messagetxt = message.replace("%20"," ")
     print (message)
-    interface.sendText(message,wantAck=True,destinationId=1976459704) # 1976459704 appg  240558232 tbeam
+    interface.sendText(message,wantAck=True,destinationId="!6d0afe24") # 1976459704 appg  240558232 tbeam
     
 def onCheck(packet, interface):
             
