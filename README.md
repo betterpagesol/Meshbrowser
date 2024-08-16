@@ -14,5 +14,8 @@ Modify the line 384 in meshbrowser :   interface.sendText(message,wantAck=True,d
 
 
 python -m venv myvenv
+
 source myvenv/bin/activate
+
 pip install -r requirements.txt
+
